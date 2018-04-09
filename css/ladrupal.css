@@ -1,0 +1,42 @@
+@import url(../../lib/font/league-gothic/league-gothic.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+
+.reveal {
+  background-image: url("../img/ladrupal.png");
+  background-repeat: no-repeat;
+  background-size: 200px auto;
+  background-color: #5d8daf;
+
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  color: white;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: #FFF;
+  font-family: "League Gothic", Impact, sans-serif;
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-shadow: none;
+  word-wrap: break-word;
+}
+
+::selection {
+  color: #000;
+  background: #d33682;
+  text-shadow: none; }
+
+::-moz-selection {
+  color: #000;
+  background: #d33682;
+  text-shadow: none; }
